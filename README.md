@@ -7,7 +7,7 @@ This repository contains the implementation and simulation framework used to stu
 - `ModelsLearning_RL_MAB_Rand.ipynb`  
   Main notebook containing the full simulation pipeline, including:
   - user behavior simulation
-  - reward–punishment configuration
+  - reward-punishment configuration
   - learning algorithms (RL, MAB, Random baseline)
   - evaluation and visualization of results
 
@@ -19,7 +19,7 @@ This repository contains the implementation and simulation framework used to stu
 
 The framework simulates a behavior change scenario in which:
 - Each user is assigned a **daily step goal**, predicted from historical data.
-- At each time step, an algorithm selects a **reward–punishment configuration (r, p)**.
+- At each time step, an algorithm selects a **reward-punishment configuration (r, p)**.
 - The user’s behavior (daily steps) is generated based on:
   - the selected incentives
   - the user’s latent sensitivity to rewards and punishments
@@ -35,7 +35,7 @@ The system then observes whether the goal is achieved (success/failure) and upda
   Balances exploration and exploitation to identify effective incentive configurations.
 
 - **Random Baseline**  
-  Selects reward–punishment pairs randomly, used as a non-adaptive benchmark.
+  Selects reward-punishment pairs randomly, used as a non-adaptive benchmark.
 
 ## 🎯 Objective
 
@@ -51,14 +51,12 @@ The goal is to evaluate whether learning-based approaches can:
 ModelsLearning_RL_MAB_Rand.ipynb
 
 2. Run all cells sequentially.
-3. Outputs (plots and metrics) will be generated automatically.
+3. Outputs will be generated automatically.
 
 ## 📊 Outputs
 
-The notebook produces:
-- learning curves of selected (r, p) configurations  
-- evolution of user step counts over time  
-- comparison between RL, MAB, and Random baseline  
+The notebook produces: 
+- evolution of user step counts over time   
 - evidence of adaptation to different user sensitivity profiles  
 
 ## 🔍 Notes
