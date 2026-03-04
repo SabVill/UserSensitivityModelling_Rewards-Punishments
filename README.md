@@ -12,7 +12,6 @@ This repository contains the implementation and simulation framework used to stu
   - evaluation and visualization of results
 
 - Generated files (created when running the notebook):
-  - plots of learning dynamics (e.g., reward/punishment selection over time)
   - step trends across simulation days
   - performance comparisons between models
   - intermediate data outputs (if enabled)
