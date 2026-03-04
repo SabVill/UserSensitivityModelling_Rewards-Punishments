@@ -1,4 +1,4 @@
-# RL & MAB for Reward–Punishment Sensitivity Modeling and Incentives Adaptation
+# RL & MAB for Reward-Punishment Sensitivity Modeling and Incentives Adaptation
 
 This repository contains the implementation and simulation framework used to study how **Reinforcement Learning (RL)** and **Multi-Armed Bandit (MAB)** approaches can infer user sensitivity to rewards and punishments and adapt incentive strategies accordingly.
 
