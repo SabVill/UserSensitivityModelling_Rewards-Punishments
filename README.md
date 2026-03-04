@@ -13,8 +13,7 @@ This repository contains the implementation and simulation framework used to stu
 
 - Generated files (created when running the notebook):
   - step trends across simulation days
-  - performance comparisons between models
-  - intermediate data outputs (if enabled)
+  - Q-tables and alpha/beta values internal to models
 
 ## ⚙️ Overview
 
